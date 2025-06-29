@@ -12,7 +12,7 @@ namespace eShop.UseCases.SearchProductScreen
             this.productRepository = productRepository;
         }
 
-        public Product? Execute(uint id)
+        public Product? Execute(int id)
         {
             return productRepository.GetProduct(id);
         }

@@ -4,6 +4,6 @@ namespace eShop.UseCases.SearchProductScreen
 {
     public interface IViewProduct
     {
-        Product? Execute(uint id);
+        Product? Execute(int id);
     }
 }

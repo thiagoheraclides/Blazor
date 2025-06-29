@@ -34,7 +34,7 @@ namespace eShop.DataStore.HardCoded
             ];
         }
 
-        public Product? GetProduct(uint id)
+        public Product? GetProduct(int id)
         {
             return products.FirstOrDefault(x => x.Id == id);
         }

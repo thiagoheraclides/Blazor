@@ -6,6 +6,6 @@ namespace eShop.UseCases.PluginInterfaces.DataStore
     {
         IEnumerable<Product>? GetProducts(string? filter = null);
 
-        Product? GetProduct(uint id);
+        Product? GetProduct(int id);
     }
 }
